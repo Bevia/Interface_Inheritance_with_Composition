@@ -29,4 +29,17 @@ public class Test {
         System.out.println("Savings return calculation: " + account1.calculateInterest(125) + "$");
 
     }
+
+    /**
+     * Output:
+     *
+     depositing 150.0
+     depositing 500.0
+     withdrawing  25.0
+     withdrawing  450.0
+     Savings interest rate: 3.0%
+     Deposit interest rate: 5.0%
+     Savings return calculation: 3.75$
+     *
+     */
 }
